@@ -1,0 +1,293 @@
+.timeline {
+    list-style: none;
+    padding: 10px 0;
+    position: relative;
+    font-weight: 300;
+    width: 100%;
+    padding-left: 55px;
+}
+
+.timeline-content-wrapper {
+    background-color: #fff;
+    min-height: 250px;
+    max-height: 465px;
+}
+
+.timeline-content {
+    color: #303238;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+}
+.time-line-img-left {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 50%;
+    min-width: 427px;
+    min-height: 240px;
+    object-fit: cover;
+}
+
+.time-line-img-right {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-width: 428px;
+    width: 50%;
+    min-height: 240px;
+    object-fit: cover;
+}
+
+.time-line-img-top {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 100%;
+    min-width: 427px;
+    max-height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.timeline-header {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    width: 100%;
+}
+
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content:" ";
+    width: 2px;
+    background: #4c5c7a;
+    left: 50%;
+    margin-left: 27.5px;
+}
+.timeline > li {
+    position: relative;
+    width: 50%;
+    float: left;
+    clear: left;
+    margin-bottom: 40px;
+}
+.timeline > li:before, .timeline > li:after {
+    content:" ";
+    display: table;
+}
+.timeline > li:after {
+    clear: both;
+}
+.timeline > li:before, .timeline > li:after {
+    content:" ";
+    display: table;
+}
+.timeline > li:after {
+    clear: both;
+}
+.timeline > li > .timeline-panel {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-right: 10px;
+}
+.timeline > li > .timeline-panel:before {
+
+    content:" ";
+}
+.timeline > li > .timeline-panel:after {
+   
+    content:" ";
+}
+.timeline > li > .timeline-badge-active {
+    border:2px solid #fff200 !important;
+}
+
+.timeline > li > .timeline-badge {
+    width: 24px;
+    height: 24px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    right: -12px;
+    z-index: 1;
+    background-color:#001641;
+    border:2px solid #4c5c7a;    
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+.timeline-badge > a {
+    color: #fff200 !important;
+}
+.timeline-badge a:hover {
+    color: #fff200 !important;
+}
+.timeline-title {
+    margin-top: 0;
+    color: inherit;
+}
+.timeline-heading {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    padding: 0 15px;
+    color: #fff200;
+}
+.timeline-body {
+    padding-right: 15px;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    width: 100%;
+}
+.timeline-footer {
+    padding: 5px 15px;
+    background-color:#f4f4f4;
+}
+.timeline-footer p { margin-bottom: 0; }
+.timeline-footer > a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.timeline > li.timeline-inverted {
+    float: right;
+    clear: right;
+}
+.timeline > li:nth-child(2) {
+    margin-top: 10px;
+}
+.timeline > li.timeline-inverted > .timeline-badge {
+    left: -12px;
+}
+.no-float {
+    float: none !important;
+}
+@media (max-width: 500px) {
+    ul.timeline:before {
+        left: 40px;
+    }
+    ul.timeline > li {
+        margin-bottom: 0px;
+        position: relative;
+        width:100%;
+        float: left;
+        clear: left;
+    }
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 65px);
+        width: -moz-calc(100% - 65px);
+        width: -webkit-calc(100% - 65px);
+    }
+    ul.timeline > li > .timeline-badge {
+        left: 28px;
+        margin-left: 0;
+        top: 16px;
+    }
+    ul.timeline > li > .timeline-panel {
+        float: right;
+    }
+    ul.timeline > li > .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+    ul.timeline > li > .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+    .timeline > li.timeline-inverted {
+        float: left;
+        clear: left;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .timeline > li.timeline-inverted > .timeline-badge {
+        left: 28px;
+    }
+}
+
+.timeline img {
+  width: 100%;
+  padding: 5px;
+  
+}
+
+#timelineButton .far {
+    color: #fff200;
+}
+
+.timeline-button-down  {
+    cursor: pointer;
+    border-radius: 25px;
+    background-image: none; 
+    background: #001641;
+    border: solid #fff200;
+    top: -22%;
+    width: 50px;
+    height: 50px;
+    outline: none; 
+}
+
+.timeline-button-up {
+    cursor: pointer;
+    border-radius: 25px;
+    background-image: none;  
+    background: #001641;
+    border: solid #fff200;
+    top: -22%;
+    left: 84%;
+    width: 50px;
+    height: 50px;
+    outline: none;
+}
+
+.timeline-button-downv.timeline-button-disabled, .timeline-button-up.timeline-button-disabled {
+    opacity: .35;
+    cursor: auto;
+    pointer-events: none;
+    border: solid #878a8f;
+}
+
+.timeline-segment {
+    cursor: pointer;
+}

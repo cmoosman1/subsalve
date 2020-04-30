@@ -1,0 +1,66 @@
+.accessories-wrapper {
+    background-color: #111929;
+    min-height: 780px;
+    padding-bottom: 1rem !important;
+}
+
+.accessorie-card-wrapper {
+    min-height: 100px;
+    width:100%;
+}
+
+.accessories-image-wrapper {
+    border: 4px solid #FFFFFF;
+    max-height: 220px;
+    max-width: 260px;
+    width: 260px;
+}
+
+.accessories-image-wrapper a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    .accessories-image-wrapper {
+        cursor: pointer;
+        border: 4px solid #0076be;
+    }
+}
+
+.accessories-title {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 44px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+}
+
+.accessorie-title-text {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+}
+
+.accessories-link a {
+    color: #0076be;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.17px;
+}
+
+.accessories-link a:hover {
+    text-decoration: none;
+}

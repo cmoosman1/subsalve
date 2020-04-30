@@ -1,0 +1,29 @@
+.covid-wrapper {
+    background-color: rgb(0, 118, 190);
+    color: #fff;
+    min-height: 100px;
+}
+
+.covid-text {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.covid-close {
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    float: right;
+    top: -21px;
+    position: relative;
+    right: 20px;
+}
+
+.covid-close:hover {
+    color: #001641;
+}

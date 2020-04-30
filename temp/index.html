@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-5JB2JZQ');</script>
+	<!-- End Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-5JB2JZQ');</script>
+	<title>Subsalve</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="//getbootstrap.com.vn/examples/equal-height-columns/equal-height-columns.css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+	<script src="https://kit.fontawesome.com/26673780f6.js"></script>
+	<script src="//code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="//stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<style>
+		#app {
+			overflow: hidden;
+		}
+		
+		.hero-title {
+			font-family: Montserrat;
+			font-size: 50px;
+			font-weight: bold;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.08;
+			letter-spacing: normal;
+			text-align: center;
+			color: #001641;
+		}
+
+		.hero-sub-title {
+			font-family: Montserrat;
+			font-size: 28px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.14;
+			letter-spacing: normal;
+			text-align: center;
+			color: #001641;
+		}
+		
+		.hero-subheader-wrapper {
+			margin-top: 12rem!important;
+		}
+
+		.hero-subheader-left-content-wrapper {
+			padding-left: 6rem!important;
+		}
+
+		.hero-subheader {
+			height: 20px;
+			text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+			font-family: Montserrat;
+			font-size: 15px;
+			font-weight: bold;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.33;
+			letter-spacing: 1.25px;
+			color: #ffffff;
+		}
+
+		.hero-description {
+			width: 262px;
+			font-family: Montserrat;
+			font-size: 20px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.6;
+			letter-spacing: normal;
+			color: #ffffff;
+		}
+
+		.hero-subheader-line {
+			height:4px; 
+			border:none; 
+			color:#fff200; 
+			background-color:#fff200; 
+			width:60px; 
+			text-align:left; 
+			margin: 0 auto 0 0;
+		}
+
+		.hero-button {
+			width: 100%;
+			height: 50px;
+			border-radius: 25px;
+			background-color: #fff200;
+			padding: 15px;
+		}
+
+		.hero-button-text {
+			font-family: Montserrat;
+			font-size: 13px;
+			font-weight: bold;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: 1.08px;
+			text-align: center;
+			color: #001641;
+		}
+
+		.slider-wrapper {
+			background-color: #404040;
+			background: url('http://subsalvestage.wpengine.com/wp-content/uploads/2019/07/just-waves-dk-navy.jpg');
+			height: 220px;
+			min-height: 220px;
+		}
+
+		.slider-header {
+			font-family: Montserrat;
+			font-size: 26px;
+			font-weight: bold;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.23;
+			letter-spacing: normal;
+			text-align: center;
+			color: #ffffff;
+		}
+
+		.slider-arrow-color {
+			color: #0b8cdb;
+		}
+
+		.accessories-page-wrapper {
+			background-color: #000819; 
+			min-height: 400px;
+		}
+		.products-wrapper {
+			background-color: #000819; 
+			min-height: 800px;
+			padding-bottom: 3rem!important;
+		}
+
+		.products-title {
+			font-family: Montserrat;
+			font-size: 44px;
+			font-weight: bold;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.5;
+			letter-spacing: normal;
+			text-align: center;
+			color: #ffffff;
+		}
+
+		.products-line {
+			width: 80px;
+			text-align: center;
+			height: 4px;
+			border: none;
+			color: #fff200;
+			background-color: #fff200;	
+		}
+
+		.products-search-text {
+			font-family: Montserrat;
+			font-size: 16px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.6;
+			letter-spacing: normal;
+			color: #ffffff;
+		}
+
+		.products-search-container form {
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			float: right;
+			-ms-flex-pack: justify;
+			justify-content: space-between;
+		}
+
+		.products-search-container:before {
+			content: '';
+			width: 24px;
+			height: 24px;
+			background: url(https://cdn2.hubspot.net/hubfs/2113799/Tallwave-Oct2018/Images/search_icon.9bb0fdde.svg) center/contain no-repeat;
+			float: right;
+		}
+
+		.products-search-container input[type=search] {
+			width: 294px;
+			margin-bottom: 0;
+			background: none !important;
+			-webkit-appearance: none;
+			box-shadow: none;
+			border-radius: 0;
+			-ms-flex-order: 2;
+			order: 2;
+			border: 0;
+			border-bottom: 1px solid #999;
+			font: 16px/1.62 Open Sans,sans-serif;
+			color: #ffffff;
+		}
+
+		.form-group {
+			display: block;
+			position: relative;
+			width: 100%;
+		}
+
+		.loading-icon {
+			display: flex;
+			justify-content: center;
+		}
+		.loading-img {
+			position: absolute;
+			top: 21px;
+			width: 80px;
+			height: 80px;
+			object-fit: contain;
+		}
+
+		.pulse-ring {
+			content: '';
+			width: 129px;
+			height: 129.9px;
+			border: solid 0.8px #e6e6e6;
+			border-radius: 50%;
+			animation: pulsate infinite 1.2s;
+		}
+
+		@keyframes pulsate {
+		0% {
+			-webkit-transform: scale(1, 1);
+			opacity: 1;
+		}
+		100% {
+			-webkit-transform: scale(1.2, 1.2);
+			opacity: 0;
+		}
+		}
+
+	</style>
+
+</head>
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JB2JZQ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JB2JZQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	<div id="app">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col loading-icon" style="margin-top: 35%;">
+					<img class="loading-img" src="http://subsalvedev.wpengine.com/wp-content/uploads/2019/07/subsalve-only-badge-rgb.png"  />
+					<div class="pulse-ring"></div>
+				</div>
+			</div>
+		</div>
+	</div> 
+	
+<script type="text/javascript" src="/bundle.js?d4ac5d7b5d8d6175eefb"></script></body>
+</html>

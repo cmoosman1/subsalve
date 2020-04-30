@@ -1,0 +1,136 @@
+.card {
+    border-radius: unset; 
+}
+
+#accordion .card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+#accordion .card-header {
+  max-height: 72px;
+  padding: 23px 23px 0px 40px;
+}
+
+#accordion .card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  color: inherit;
+  background-color: rgba(0,0,0,.03);
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+#accordion .collapse, #accordion .collapsing {
+  background-color: rgb(242, 247, 250);
+  margin-left: -1px;
+  border-left: 8px solid rgb(0, 118, 190);
+}
+#accordion .collapse:not(.show) {
+  display: none;
+}
+
+#accordion .inner-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(0, 118, 190);
+  padding-top: 14px;
+  padding-left: 41px;
+  padding-bottom: 21px;
+}
+
+#accordion .inner-title .close-btn {
+  padding-right: 28px;
+}
+#accordion .btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  float: right;
+}
+
+#accordion .button {
+  float: right;
+  bottom: 16px;
+}
+#accordion .btn-link {
+  font-weight: 400;
+  color: #007bff;
+}
+
+#accordion .toggleIcon {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+#accordion .table {
+  width: 990px;
+  margin-bottom: 42px;
+  margin-left: 40px;
+  margin-right: 102px;
+  margin-top: 46px;
+  background-color: rgb(255, 255, 255);
+}
+
+#accordion .table {
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+#accordion .table {
+  border-collapse: collapse;
+}
+#accordion, ::after, ::before {
+  box-sizing: border-box;
+}
+
+#accordion .table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+#accordion .table-title {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.27;
+  color: rgb(0, 22, 65);
+}
+
+#accordion .table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0,0,0,.25);
+}
+
+@media screen and (max-width: 768px) {
+  .table-mobile-wrapper { 
+    overflow-x: auto; 
+    width: 460px;
+  }
+  .table-mobile-wrapper table { white-space: nowrap }
+  
+}
+
+@media screen and (max-width: 468px) {
+  .table-mobile-wrapper { 
+    overflow-x: auto; 
+    width: 380px;
+  }
+  .table-mobile-wrapper table { white-space: nowrap }
+  
+}
+
+@media screen and (max-width: 375px) {
+  .table-mobile-wrapper { 
+    overflow-x: auto; 
+    width: 300px;
+  }
+  .table-mobile-wrapper table { white-space: nowrap }
+  
+}

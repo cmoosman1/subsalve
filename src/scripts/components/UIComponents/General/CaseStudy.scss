@@ -1,0 +1,90 @@
+.case-study-wrapper {
+    background-color: #000819;
+    min-height: 400px;
+    padding-bottom: 3rem!important;
+}
+
+.case-study-feature-wrapper {
+    background-color: #001641;
+}
+
+.featured-case-study{
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #fff200;
+    text-transform: uppercase;
+}
+
+.fa-circle:before {
+    content: "\f111";
+    font-size: 10px;
+}
+
+.featured-case-study-grey-circle {
+    color: gray !important;
+    font-size: 10px !important;
+}
+.case-study {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: gray;
+  text-transform: uppercase;
+}
+
+.case-study-title {
+    font-size: 42px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.case-study-divider {
+    height: 2px;
+    border: none;
+    color: #ededed;
+    background-color: #ededed;
+}
+
+.case-study-button {
+    background-color: #ffffff;
+    color: #001641;
+    width: 100%;
+    min-width: 314px;
+    height: 45px;
+    border-radius: 50px;
+    border: solid 2px #ffffff;
+}
+
+.case-study-button a {
+    color: #001641;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.case-study-button:hover {
+    background-color: transparent;
+    color: #ffffff;
+    width: 100%;
+    min-width: 314px;
+    height: 45px;
+    border-radius: 50px;
+    border: solid 2px #ffffff;
+}
+.case-study-button a:hover {
+    border: solid 2px #fff200;
+}
+
+.image-wrapper {
+    overflow: hidden;
+}
